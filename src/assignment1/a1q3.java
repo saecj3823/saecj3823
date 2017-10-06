@@ -26,50 +26,50 @@ public class a1q3 {
         //create robot 
         Robot Mark = new Robot(kitchener, 3, 2, Direction.EAST);
         //Create thing 
-      new Thing(kitchener,3,3);
-      //create walls 
-      new Wall(kitchener,3,4, Direction.WEST);
-      new Wall(kitchener,3,4, Direction.NORTH);
-      new Wall(kitchener,2,5, Direction.WEST);
-      new Wall(kitchener,1,5, Direction.WEST);
-      new Wall(kitchener,1,5, Direction.NORTH);
-      new Wall(kitchener,1,5, Direction.EAST);
-      new Wall(kitchener,2,6, Direction.NORTH);
-      new Wall(kitchener,2,6, Direction.EAST);
-      new Wall(kitchener,3,6, Direction.EAST);
-      //Mark move
-      Mark.move();
-      Mark.turnLeft();
-      //Get mark to ping thing up
-      Mark.pickThing();
-      //Get mark to move
-      Mark.move();
-      Mark.turnLeft();
-      Mark.turnLeft();
-      Mark.turnLeft();
-      Mark.move();
-      Mark.turnLeft();
-      Mark.move();
-      Mark.move();
-      Mark.turnLeft();
-      Mark.turnLeft();
-      Mark.turnLeft();
-      Mark.move();
-      //get mark to drop item
-      Mark.putThing();
-      //make mark move again 
-      Mark.move();
-      Mark.turnLeft();
-      Mark.turnLeft();
-      Mark.turnLeft();
-      Mark.move();
-      Mark.turnLeft();
-      Mark.move();
-      Mark.turnLeft();
-      Mark.turnLeft();
-      Mark.turnLeft();
-      Mark.move();
-      Mark.move();
-      Mark.turnLeft();
+        new Thing(kitchener, 3, 3);
+        //create walls 
+        new Wall(kitchener, 3, 4, Direction.WEST);
+        new Wall(kitchener, 3, 4, Direction.NORTH);
+        new Wall(kitchener, 2, 5, Direction.WEST);
+        new Wall(kitchener, 1, 5, Direction.WEST);
+        new Wall(kitchener, 1, 5, Direction.NORTH);
+        new Wall(kitchener, 1, 5, Direction.EAST);
+        new Wall(kitchener, 2, 6, Direction.NORTH);
+        new Wall(kitchener, 2, 6, Direction.EAST);
+        new Wall(kitchener, 3, 6, Direction.EAST);
+        //Mark move
+        Mark.move();
+        Mark.turnLeft();
+        //Get mark to ping thing up
+        Mark.pickThing();
+        //Get mark to move
+        Mark.move();
+        Mark.turnLeft();
+        Mark.turnLeft();
+        Mark.turnLeft();
+        Mark.move();
+        Mark.turnLeft();
+        Mark.move();
+        Mark.move();
+        Mark.turnLeft();
+        Mark.turnLeft();
+        Mark.turnLeft();
+        Mark.move();
+        //get mark to drop item
+        Mark.putThing();
+        //make mark move again 
+        Mark.move();
+        Mark.turnLeft();
+        Mark.turnLeft();
+        Mark.turnLeft();
+        Mark.move();
+        Mark.turnLeft();
+        Mark.move();
+        Mark.turnLeft();
+        Mark.turnLeft();
+        Mark.turnLeft();
+        Mark.move();
+        Mark.move();
+        Mark.turnLeft();
     }
 }
